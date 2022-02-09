@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.container{
+    border: 1px solid rgb(201, 201, 201);
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.list{  
+    border-bottom: 1px solid rgb(194, 194, 194);
+    display: flex;
+    justify-content: space-around;
+    list-style: none outside none;
+    padding: 29px 5px 0 5px;
+    font-size: 15px;
+}
+li > a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px 10px 16px 10px;
+    color: rgb(143, 142, 142);
+    border-radius: 4px 4px 0 0;
+}
+li:hover > a {
+    background-color: rgb(252, 246, 255); 
+}
+:target{
+    border-bottom: 2px solid rgb(135, 1, 175);
+    background-color: rgb(252, 246, 255);
+}
+.row-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 19px;
+    background-color: thistle;
+}
+input{
+    width: 100%;
+    padding: 9px 40px;
+    font-size: 16px;
+    border-radius: 10px;
+} 
+svg {
+    position: absolute;
+    top: 7px;
+    left: 10px;
+} 
+.svg1{
+    position: absolute;
+    left: 2px;
+    color: rgb(194, 194, 194);
+   
+}
+button{
+    position: relative;
+    padding: 9px 28px;
+    border-radius: 10px;
+}
+.search-bar{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    /* outline: none; */
+    background: none;
+}
+
+
+
+.address-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 20px;
+}
+.address-container > address {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px  3px rgba(153, 153, 153, 0.288);
+}
+
+.address1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+address ul li.address1 > a {
+    font-size: 12px;
+    color: #006699;
+    padding: 0;
+}
+.pen-icon {
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: #ddd;
+    border-radius: 100%;
+}
+
+address > ul {
+    margin: 0;
+    padding: 0;
+}
+address > ul > li {
+    list-style: none outside none;
+    margin-bottom: 8px;
+    font-style: normal;
+    font-size: 14px;
+}
